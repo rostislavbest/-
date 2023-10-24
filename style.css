@@ -1,8 +1,36 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
 body{
+  min-height:100vh;
   background-color: violet;
+  display: grid;
+  place-items: center;
 }
 h1{
   color:pink;
   text-align: center;
   font-family:sans-serif;
+  
+}
+.box{
+  position:relative;
+  width:350px;
+  height:350px;
+  background-color: blue;
+  border-radius:15px;
+}
+img{
+  width:70%;
+  height:50%;
+  display:block;
+  margin: 0 auto;
+  margin-bottom:10px;
+}
+p{
+
+  text-align: center;
+  
 }
